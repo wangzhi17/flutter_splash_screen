@@ -1,7 +1,5 @@
 package com.waisongbang.flutter_splash_screen;
 
-import android.app.Activity;
-
 import androidx.annotation.NonNull;
 
 import io.flutter.embedding.engine.plugins.FlutterPlugin;
@@ -9,7 +7,6 @@ import io.flutter.plugin.common.MethodCall;
 import io.flutter.plugin.common.MethodChannel;
 import io.flutter.plugin.common.MethodChannel.MethodCallHandler;
 import io.flutter.plugin.common.MethodChannel.Result;
-import io.flutter.plugin.common.PluginRegistry.Registrar;
 
 /**
  * SplashScreen
@@ -49,3 +46,4 @@ public class FlutterSplashScreenPlugin implements FlutterPlugin, MethodCallHandl
   private void hide() {
     SplashScreen.hide();
   }
+}
